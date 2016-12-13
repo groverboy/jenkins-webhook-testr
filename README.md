@@ -14,3 +14,5 @@ Change 5 (after exiting from SSH session: build failure due to failed attempt to
 Change 6 (after restarting slave.jar on agent using "sudo -u jenkins java -jar ...", because of same build failure and may be appropriate for the process to run as "jenkins" instead of "gboy" (from SSH session))
 
 Change 7 (after taking build agent online - earlier attempt to take offline + online made no difference to above build failure)
+
+Change 8 (after adding GitHub logger)
